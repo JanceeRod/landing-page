@@ -13,12 +13,16 @@ a, h1, p, .left-links {
     font-family: Roboto, sans-serif;
 }
 
+.containerone {
+    border: solid lime;
+    background-color: #1f2937;
+    padding: 15px 60px;
+}
+
 .header {
     border: solid red;
     display: flex;
     align-items: center;
-    background-color: #1f2937;
-    padding: 15px 25px;
 }
 
 ul {
@@ -41,6 +45,8 @@ a {
     font-weight: bold;
     margin-right: auto;
 }
+
+
 
 
 
