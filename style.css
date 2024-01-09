@@ -44,3 +44,36 @@ a {
 
 
 
+.frontrow {
+    border: solid cyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.intro, .frontrow img {
+    border: solid green;
+}
+
+.intro h1 {
+    border: solid red;
+    color: #f9faf8;
+    font-size: 48px;
+    margin: 0px;
+}
+
+.intro p {
+    border: solid red;
+    color: #e5e7eb;
+    font-size: 18px;
+    margin: 0px;
+}
+
+.frontrow img {
+    width: 600px;
+    height: 100;
+}
+
+
+
