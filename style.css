@@ -1,23 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-    display: flex;
-    flex-direction: column;
+    border: solid salmon;
     margin: 0;
     padding: 0;
     height: 100vh;
-
+    display: flex;
+    flex-direction: column;
 }
+
 
 a, h1, p, .left-links {
     font-family: Roboto, sans-serif;
 }
 
 .header {
+    border: solid red;
     display: flex;
-    background-color: #1f2937;
-    padding: 10px 15px;
     align-items: center;
+    background-color: #1f2937;
+    padding: 15px 15px;
 }
 
 ul {
@@ -25,7 +27,7 @@ ul {
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 15px;
+    gap: 20px;
     font-size: 18px;
 }
 
@@ -38,6 +40,7 @@ a {
     font-size: 24px;
     color: #f9faf8;
     font-weight: bold;
+    margin-right: auto;
 }
 
 
