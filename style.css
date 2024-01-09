@@ -45,15 +45,17 @@ a {
 
 
 .frontrow {
-    border: solid cyan;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    border: solid yellow;
     background-color: #1f2937;
+    padding: 60px;
 }
 
-.intro, .frontrow img {
-    border: solid green;
+.containertwo {
+    border: solid cyan;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 30px;
 }
 
 .intro h1 {
@@ -70,10 +72,13 @@ a {
     margin: 0px;
 }
 
-.frontrow img {
-    width: 600px;
-    height: 100;
+.containertwo img {
+    width: 500px;
+    max-width: 100%;
+    flex-shrink: 1;
 }
+
+
 
 
 
