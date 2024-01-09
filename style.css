@@ -52,30 +52,35 @@ a {
 
 .containertwo {
     border: solid cyan;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     display: flex;
-    gap: 30px;
+}
+
+.intro {
+    border: solid pink;
+    width: 400px;
+    max-width: 100%;
 }
 
 .intro h1 {
-    border: solid red;
+    /* border: solid red; */
     color: #f9faf8;
     font-size: 48px;
-    margin: 0px;
+    margin: 0px 0px 5px 0px;
+
 }
 
 .intro p {
-    border: solid red;
+    /* border: solid red; */
     color: #e5e7eb;
     font-size: 18px;
-    margin: 0px;
+    margin: 0px 0px 20px 0px;
 }
 
 .containertwo img {
-    width: 500px;
+    width: 450px;
     max-width: 100%;
-    flex-shrink: 1;
 }
 
 
