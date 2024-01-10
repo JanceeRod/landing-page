@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-    border: solid salmon;
+    /* border: solid salmon; */
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -14,13 +14,13 @@ a, h1, p, .left-links {
 }
 
 .containerone {
-    border: solid lime;
+    /* border: solid lime; */
     background-color: #1f2937;
     padding: 15px 60px;
 }
 
 .header {
-    border: solid red;
+    /* border: solid red; */
     display: flex;
     align-items: center;
 }
@@ -51,20 +51,20 @@ a {
 
 
 .frontrow {
-    border: solid yellow;
+    /* border: solid yellow; */
     background-color: #1f2937;
     padding: 60px;
 }
 
 .containertwo {
-    border: solid cyan;
+    /* border: solid cyan; */
     justify-content: space-around;
     align-items: center;
     display: flex;
 }
 
 .intro {
-    border: solid pink;
+    /* border: solid pink; */
     width: 400px;
     max-width: 100%;
 }
@@ -82,6 +82,16 @@ a {
     color: #e5e7eb;
     font-size: 18px;
     margin: 0px 0px 20px 0px;
+}
+
+.intro button {
+    font-size: 17px;
+    font-weight: bold;
+    color: #f9faf8;
+    border: none;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 10px 35px;
 }
 
 .containertwo img {
