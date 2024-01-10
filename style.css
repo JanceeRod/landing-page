@@ -97,6 +97,7 @@ a {
 .containertwo img {
     width: 450px;
     max-width: 100%;
+    border-radius: 10px;
 }
 
 .info {
