@@ -107,15 +107,19 @@ a {
 }
 
 .info-cards {
-    border: solid red;
+    /* border: solid red; */
     display: flex;
 }
 
 .card {
-    border: solid greenyellow;
+    /* border: solid greenyellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card img {
     width: 300px;
     max-width: 100%;
+    border-radius: 5px;
 }
