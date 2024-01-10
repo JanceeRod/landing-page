@@ -53,7 +53,7 @@ a {
 .frontrow {
     /* border: solid yellow; */
     background-color: #1f2937;
-    padding: 60px;
+    padding: 100px 60px;
 }
 
 .containertwo {
@@ -92,6 +92,10 @@ a {
     background-color: #3882f6;
     border-radius: 10px;
     padding: 10px 35px;
+}
+
+.intro button:hover {
+    background-color: #f19f06;
 }
 
 .containertwo img {
