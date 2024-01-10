@@ -138,6 +138,7 @@ a {
     align-items: center;
     font-family: Roboto, sans-serif;
     text-align: center;
+    gap: 15px;
     padding: 15px;
 }
 
