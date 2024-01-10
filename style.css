@@ -109,6 +109,9 @@ a {
 
 #info-div-title {
     margin: 10px 10px;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
 }
 
 .info-cards {
