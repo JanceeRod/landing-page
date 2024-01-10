@@ -46,10 +46,6 @@ a {
     margin-right: auto;
 }
 
-
-
-
-
 .frontrow {
     /* border: solid yellow; */
     background-color: #1f2937;
@@ -103,7 +99,23 @@ a {
     max-width: 100%;
 }
 
+.info {
+    border: solid salmon;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.info-cards {
+    border: solid red;
+    display: flex;
+}
 
+.card {
+    border: solid greenyellow;
+}
 
-
+.card img {
+    width: 300px;
+    max-width: 100%;
+}
