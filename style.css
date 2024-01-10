@@ -105,6 +105,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 40px;
 }
 
 #info-div-title {
@@ -144,4 +145,34 @@ a {
     border-radius: 5px;
 }
 
+.quote {
+    border: solid #f19f06;
+    background-color: #e5e7eb;
+    padding: 50px 50px;
+}
+
+.containerthree {
+    border: solid cyan;
+    padding: 0px 180px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 300px;
+    flex-shrink: 0;
+}
+
+.quote #text {
+    border: solid cyan;
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    margin: 0px 0px 0px 0px;
+}
+
+.quote #by {
+    border: solid cyan;
+    margin: 0px 0px 0px 0px;
+    text-align: right;
+    font-size: 25px;
+    font-weight: bold;
+}
 
